@@ -23,3 +23,10 @@ quantity = float(input("Enter the quantity: "))
 price =int(input("Enter the price: "))
 total_price = quantity * price
 print(f"The total price of {quantity} {item} is {total_price}")
+
+#mathlip function 
+noun1 = input("Enter the noun1: ")
+adjective1 = input("Enter the adjective1: ")
+verb1 = input("Enter the verb1: ")
+
+print(f"The {noun1} is {adjective1} and it {verb1}")
